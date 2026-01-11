@@ -29,14 +29,14 @@ export default function Header() {
         {/* Boutons desktop */}
         <div className="hidden md:flex gap-3">
           <a
-            href="/documents/CV-Ismael-Bini.pdf"
+            href="/cv.pdf"
             download
             className="border border-primary text-primary px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary hover:text-white transition"
           >
             CV
           </a>
           <a
-            href="/documents/Diplome-Licence-Ismael-Bini.pdf"
+            href="/diplome.pdf"
             download
             className="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition"
           >
