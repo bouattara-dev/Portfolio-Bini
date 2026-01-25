@@ -2,7 +2,10 @@ import {
   FolderKanban,
   Building2,
   CheckCircle,
-  Clock
+  Clock,
+  Github,
+  ExternalLink,
+  Code
 } from "lucide-react";
 
 export default function Projects() {
@@ -64,10 +67,114 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* Projets futurs */}
-          <div className="border rounded-xl p-8 bg-gray-50 flex flex-col items-center justify-center text-center text-textMuted">
-            <Clock className="w-8 h-8 mb-3" />
-            <span>Projets futurs / académiques</span>
+          {/* Projets personnels */}
+          <div className="border rounded-xl p-8 hover:shadow-md transition">
+
+            <span className="flex items-center gap-2 text-sm font-semibold text-primary">
+              <Code className="w-4 h-4" />
+              Projet personnel
+            </span>
+
+            <h3 className="text-xl font-semibold text-textMain mt-2 mb-4">
+              Dashboard Analytics Système
+            </h3>
+
+            <p className="text-textMuted mb-4">
+              Dashboard interactif pour la visualisation des données de santé en temps réel,
+              avec des graphiques dynamiques et des alertes personnalisées.
+            </p>
+
+            {/* Liste avec icônes */}
+            <ul className="text-textMain space-y-2 mb-4">
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary mt-1" />
+                <span>React + TypeScript + Chart.js</span>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary mt-1" />
+                <span>API REST avec Node.js</span>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary mt-1" />
+                <span>Base de données PostgreSQL</span>
+              </li>
+            </ul>
+
+            <div className="flex gap-3">
+              <a
+                href="https://github.com/ismaelbini/health-dashboard"
+                target="_blank"
+                className="flex items-center gap-2 text-sm text-primary hover:underline"
+              >
+                <Github className="w-4 h-4" />
+                Voir le code
+              </a>
+              <a
+                href="https://health-dashboard-demo.vercel.app"
+                target="_blank"
+                className="flex items-center gap-2 text-sm text-primary hover:underline"
+              >
+                <ExternalLink className="w-4 h-4" />
+                Démo live
+              </a>
+            </div>
+          </div>
+
+          {/* Projet académique */}
+          <div className="border rounded-xl p-8 hover:shadow-md transition">
+
+            <span className="flex items-center gap-2 text-sm font-semibold text-primary">
+              <Code className="w-4 h-4" />
+              Projet académique
+            </span>
+
+            <h3 className="text-xl font-semibold text-textMain mt-2 mb-4">
+              Gestionnaire de Cabinet Médical
+            </h3>
+
+            <p className="text-textMuted mb-4">
+              Application complète pour la gestion des rendez-vous, patients et dossiers médicaux
+              développée lors du projet de fin de licence.
+            </p>
+
+            {/* Liste avec icônes */}
+            <ul className="text-textMain space-y-2 mb-4">
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary mt-1" />
+                <span>Next.js + Tailwind CSS</span>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary mt-1" />
+                <span>Authentication & Sécurité</span>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary mt-1" />
+                <span>Export PDF des rapports</span>
+              </li>
+            </ul>
+
+            <div className="flex gap-3">
+              <a
+                href="https://github.com/ismaelbini/medical-office"
+                target="_blank"
+                className="flex items-center gap-2 text-sm text-primary hover:underline"
+              >
+                <Github className="w-4 h-4" />
+                Voir le code
+              </a>
+              <a
+                href="https://medical-office-demo.vercel.app"
+                target="_blank"
+                className="flex items-center gap-2 text-sm text-primary hover:underline"
+              >
+                <ExternalLink className="w-4 h-4" />
+                Démo live
+              </a>
+            </div>
           </div>
         </div>
       </div>

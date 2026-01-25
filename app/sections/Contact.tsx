@@ -75,7 +75,7 @@ export default function Contact() {
           {/* Bouton CV */}
           <div className="pt-6">
             <a
-              href="cv.pdf"
+              href="/cv.pdf"
               download
               className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition"
             >

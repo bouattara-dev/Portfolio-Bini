@@ -54,7 +54,7 @@ export default function Footer() {
 
           <div className="mt-4">
             <a
-              href="cv.pdf"
+              href="/cv.pdf"
               download
               className="inline-block text-sm font-medium text-primary hover:underline"
             >

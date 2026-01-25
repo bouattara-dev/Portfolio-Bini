@@ -1,4 +1,4 @@
-import { Briefcase, CheckCircle } from "lucide-react";
+import { Briefcase, CheckCircle, TrendingUp, Users, Clock, Target } from "lucide-react";
 
 export default function Experience() {
   return (
@@ -27,6 +27,30 @@ export default function Experience() {
             destiné à améliorer la gestion des soins, la traçabilité des données médicales
             et la performance des établissements de santé.
           </p>
+
+          {/* Métriques de performance */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+            <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 text-center">
+              <TrendingUp className="w-6 h-6 text-primary mx-auto mb-2" />
+              <div className="text-2xl font-bold text-primary">30%</div>
+              <div className="text-xs text-textMuted">Réduction temps traitement</div>
+            </div>
+            <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 text-center">
+              <Users className="w-6 h-6 text-primary mx-auto mb-2" />
+              <div className="text-2xl font-bold text-primary">50+</div>
+              <div className="text-xs text-textMuted">Utilisateurs formés</div>
+            </div>
+            <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 text-center">
+              <Clock className="w-6 h-6 text-primary mx-auto mb-2" />
+              <div className="text-2xl font-bold text-primary">24/7</div>
+              <div className="text-xs text-textMuted">Disponibilité système</div>
+            </div>
+            <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 text-center">
+              <Target className="w-6 h-6 text-primary mx-auto mb-2" />
+              <div className="text-2xl font-bold text-primary">100%</div>
+              <div className="text-xs text-textMuted">Conformité réglementaire</div>
+            </div>
+          </div>
 
           {/* Liste avec icônes */}
           <ul className="space-y-3 text-textMain">

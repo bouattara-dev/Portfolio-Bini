@@ -80,24 +80,57 @@ export default function Skills() {
               Technologies
             </h3>
 
-            <ul className="space-y-3 text-textMuted">
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>JavaScript / TypeScript</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>React / Next.js</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>Tailwind CSS</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>Bases de données relationnelles</span>
-              </li>
-            </ul>
+            <div className="space-y-4">
+              <div>
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-textMain font-medium">JavaScript / TypeScript</span>
+                  <span className="text-sm text-primary font-semibold">90%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{width: '90%'}}></div>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-textMain font-medium">React / Next.js</span>
+                  <span className="text-sm text-primary font-semibold">85%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{width: '85%'}}></div>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-textMain font-medium">Tailwind CSS</span>
+                  <span className="text-sm text-primary font-semibold">80%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{width: '80%'}}></div>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-textMain font-medium">Bases de données relationnelles</span>
+                  <span className="text-sm text-primary font-semibold">75%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{width: '75%'}}></div>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-textMain font-medium">Node.js / API REST</span>
+                  <span className="text-sm text-primary font-semibold">70%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{width: '70%'}}></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
