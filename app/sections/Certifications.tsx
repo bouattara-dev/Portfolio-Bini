@@ -27,12 +27,12 @@ export default function Certifications() {
                   <span className="text-sm text-textMuted">2021 - 2024</span>
                 </div>
                 
-                <p className="text-textMuted text-sm mb-2">Université Félix Houphouët-Boigny</p>
+                <p className="text-textMuted text-sm mb-2">Université Nord Sud Abidjan</p>
                 <p className="text-textMuted text-sm">Option Génie Logiciel</p>
                 
                 <div className="flex items-center gap-2 mt-2">
                   <MapPin className="w-3 h-3 text-primary" />
-                  <span className="text-xs text-textMuted">Abidjan, Côte d'Ivoire</span>
+                  <span className="text-xs text-textMuted">Marcory, Côte d'Ivoire</span>
                 </div>
               </div>
 
@@ -45,12 +45,12 @@ export default function Certifications() {
                   <span className="text-sm text-textMuted">2020 - 2021</span>
                 </div>
                 
-                <p className="text-textMuted text-sm mb-2">Lycée Moderne de Yamoussoukro</p>
-                <p className="text-textMuted text-sm">Mention Assez Bien</p>
+                <p className="text-textMuted text-sm mb-2">Lycée Municipal Port-Bouet</p>
+                <p className="text-textMuted text-sm">Mention Passable</p>
                 
                 <div className="flex items-center gap-2 mt-2">
                   <MapPin className="w-3 h-3 text-primary" />
-                  <span className="text-xs text-textMuted">Yamoussoukro, Côte d'Ivoire</span>
+                  <span className="text-xs text-textMuted">Port-Bouet, Côte d'Ivoire</span>
                 </div>
               </div>
             </div>
@@ -61,39 +61,39 @@ export default function Certifications() {
             <h3 className="text-xl font-semibold text-textMain mb-6">Certifications techniques</h3>
             
             <div className="space-y-4">
-              <div className="border-l-4 border-primary pl-4 py-2">
+              <div className="border-l-4 border-gray-300 pl-4 py-2">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="font-semibold text-textMain">Développeur Full Stack React</h4>
-                  <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">2024</span>
+                  <span className="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">En cours</span>
                 </div>
-                <p className="text-textMuted text-sm">OpenClassrooms - Certification professionnelle</p>
+                <p className="text-textMuted text-sm">OpenClassrooms - Formation en ligne</p>
                 <div className="flex items-center gap-2 mt-1">
-                  <CheckCircle className="w-3 h-3 text-green-500" />
-                  <span className="text-xs text-textMuted">Validé</span>
+                  <Calendar className="w-3 h-3 text-orange-500" />
+                  <span className="text-xs text-textMuted">Prévu 2025</span>
                 </div>
               </div>
 
-              <div className="border-l-4 border-primary pl-4 py-2">
+              <div className="border-l-4 border-gray-300 pl-4 py-2">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="font-semibold text-textMain">Gestion de Projets SI</h4>
-                  <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">2023</span>
+                  <span className="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">En cours</span>
                 </div>
-                <p className="text-textMuted text-sm">Coursera - Université de Minnesota</p>
+                <p className="text-textMuted text-sm">Formation en ligne</p>
                 <div className="flex items-center gap-2 mt-1">
-                  <CheckCircle className="w-3 h-3 text-green-500" />
-                  <span className="text-xs text-textMuted">Validé</span>
+                  <Calendar className="w-3 h-3 text-orange-500" />
+                  <span className="text-xs text-textMuted">Prévu 2025</span>
                 </div>
               </div>
 
-              <div className="border-l-4 border-primary pl-4 py-2">
+              <div className="border-l-4 border-gray-300 pl-4 py-2">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="font-semibold text-textMain">Sécurité des Données de Santé</h4>
-                  <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">2023</span>
+                  <span className="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">En cours</span>
                 </div>
-                <p className="text-textMuted text-sm">DISD - Formation spécialisée DPI</p>
+                <p className="text-textMuted text-sm">Formation spécialisée DPI</p>
                 <div className="flex items-center gap-2 mt-1">
-                  <CheckCircle className="w-3 h-3 text-green-500" />
-                  <span className="text-xs text-textMuted">Validé</span>
+                  <Calendar className="w-3 h-3 text-orange-500" />
+                  <span className="text-xs text-textMuted">Prévu 2025</span>
                 </div>
               </div>
 
@@ -102,10 +102,10 @@ export default function Certifications() {
                   <h4 className="font-semibold text-textMain">Cloud Computing AWS</h4>
                   <span className="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">En cours</span>
                 </div>
-                <p className="text-textMuted text-sm">AWS Academy - Certification Cloud Practitioner</p>
+                <p className="text-textMuted text-sm">Formation en ligne</p>
                 <div className="flex items-center gap-2 mt-1">
                   <Calendar className="w-3 h-3 text-orange-500" />
-                  <span className="text-xs text-textMuted">Prévu Q1 2025</span>
+                  <span className="text-xs text-textMuted">Prévu 2025</span>
                 </div>
               </div>
             </div>

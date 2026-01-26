@@ -52,7 +52,7 @@ export default function Header() {
             {diplomaOpen && (
               <div className="absolute top-full mt-2 right-0 bg-white border rounded-lg shadow-lg min-w-[200px] z-50">
                 <a
-                  href="/diplome.pdf"
+                  href="/Diplome-Licence.pdf"
                   download
                   className="flex items-center gap-2 px-4 py-3 text-sm text-textMain hover:bg-gray-50 transition border-b"
                 >
@@ -60,7 +60,7 @@ export default function Header() {
                   Licence
                 </a>
                 <a
-                  href="/admissibilite.pdf"
+                  href="/Admissibilité.pdf"
                   download
                   className="flex items-center gap-2 px-4 py-3 text-sm text-textMain hover:bg-gray-50 transition border-b"
                 >
@@ -127,7 +127,7 @@ export default function Header() {
                 {diplomaOpen && (
                   <div className="mt-2 bg-white border rounded-lg shadow-lg">
                     <a
-                      href="/diplome.pdf"
+                      href="/Diplome-Licence.pdf"
                       download
                       className="flex items-center gap-2 px-4 py-3 text-sm text-textMain hover:bg-gray-50 transition border-b"
                     >
@@ -135,7 +135,7 @@ export default function Header() {
                       Licence
                     </a>
                     <a
-                      href="/admissibilite.pdf"
+                      href="/Admissibilité.pdf"
                       download
                       className="flex items-center gap-2 px-4 py-3 text-sm text-textMain hover:bg-gray-50 transition border-b"
                     >

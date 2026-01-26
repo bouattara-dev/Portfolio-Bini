@@ -76,29 +76,28 @@ export default function Projects() {
             </span>
 
             <h3 className="text-xl font-semibold text-textMain mt-2 mb-4">
-              Dashboard Analytics Système
+              gestion_personnel
             </h3>
 
             <p className="text-textMuted mb-4">
-              Dashboard interactif pour la visualisation des données de santé en temps réel,
-              avec des graphiques dynamiques et des alertes personnalisées.
+              C'est une application web de gestion du personnel pour une administration.Elle permet de gérer :Employés,Services,Congés , permissions,Présence etComptes utilisateurs
             </p>
 
             {/* Liste avec icônes */}
             <ul className="text-textMain space-y-2 mb-4">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>React + TypeScript + Chart.js</span>
+                <span>Next.js+ TypeScript + Chart.js</span>
               </li>
 
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>API REST avec Node.js</span>
+                <span>API Routes / Route Handlers</span>
               </li>
 
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>Base de données PostgreSQL</span>
+                <span>Prisma pour parler à PostgreSQL</span>
               </li>
             </ul>
 
@@ -131,29 +130,36 @@ export default function Projects() {
             </span>
 
             <h3 className="text-xl font-semibold text-textMain mt-2 mb-4">
-              Gestionnaire de Cabinet Médical
+              Système de détection / reconnaissance faciale
             </h3>
 
             <p className="text-textMuted mb-4">
-              Application complète pour la gestion des rendez-vous, patients et dossiers médicaux
-              développée lors du projet de fin de licence.
+              Projet universitaire : Système de détection et reconnaissance faciale
+
+Développement d’une application de vision par ordinateur en Python
+
+Utilisation d’OpenCV pour la capture vidéo et la détection de visages en temps réel
+
+Visualisation des résultats avec Matplotlib
+
+Implémentation d’algorithmes de traitement d’images et de classification
             </p>
 
             {/* Liste avec icônes */}
             <ul className="text-textMain space-y-2 mb-4">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>Next.js + Tailwind CSS</span>
+                <span>Python</span>
               </li>
 
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>Authentication & Sécurité</span>
+                <span>OpenCV</span>
               </li>
 
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-1" />
-                <span>Export PDF des rapports</span>
+                <span>Matplotlib</span>
               </li>
             </ul>
 

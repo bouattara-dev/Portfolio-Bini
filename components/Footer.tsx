@@ -27,7 +27,11 @@ export default function Footer() {
             <li><Link href="#about" className="hover:text-primary">Profil</Link></li>
             <li><Link href="#experience" className="hover:text-primary">Expérience</Link></li>
             <li><Link href="#projects" className="hover:text-primary">Projets</Link></li>
+            <li><Link href="#skills" className="hover:text-primary">Compétences</Link></li>
+            <li><Link href="#testimonials" className="hover:text-primary">Témoignages</Link></li>
+            <li><Link href="#certifications" className="hover:text-primary">Certifications</Link></li>
             <li><Link href="#contact" className="hover:text-primary">Contact</Link></li>
+
           </ul>
         </div>
 

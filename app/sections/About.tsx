@@ -30,7 +30,7 @@ export default function About() {
         <div className="bg-primary rounded-2xl p-8 flex items-center justify-center">
           <div className="relative">
             <img
-              src="/profile.jpg"
+              src="/profile.JPG"
               alt="Ismael Bini - Photo professionnelle"
               className="w-64 h-64 md:w-80 md:h-80 rounded-2xl object-cover shadow-2xl border-4 border-white"
             />
