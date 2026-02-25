@@ -23,7 +23,7 @@ export default function Certifications() {
                 <div className="absolute left-0 top-0 w-4 h-4 bg-primary rounded-full -translate-x-1/2"></div>
                 
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                  <h4 className="font-semibold text-textMain">Licence Mathématiques & Informatique</h4>
+                  <h4 className="font-semibold text-textMain">Licence en Informatique</h4>
                   <span className="text-sm text-textMuted">2021 - 2024</span>
                 </div>
                 
@@ -69,7 +69,7 @@ export default function Certifications() {
                 <p className="text-textMuted text-sm">OpenClassrooms - Formation en ligne</p>
                 <div className="flex items-center gap-2 mt-1">
                   <Calendar className="w-3 h-3 text-orange-500" />
-                  <span className="text-xs text-textMuted">Prévu 2025</span>
+                  <span className="text-xs text-textMuted">Prévu 2027</span>
                 </div>
               </div>
 
@@ -81,7 +81,7 @@ export default function Certifications() {
                 <p className="text-textMuted text-sm">Formation en ligne</p>
                 <div className="flex items-center gap-2 mt-1">
                   <Calendar className="w-3 h-3 text-orange-500" />
-                  <span className="text-xs text-textMuted">Prévu 2025</span>
+                  <span className="text-xs text-textMuted">Prévu 2027</span>
                 </div>
               </div>
 
@@ -93,19 +93,19 @@ export default function Certifications() {
                 <p className="text-textMuted text-sm">Formation spécialisée DPI</p>
                 <div className="flex items-center gap-2 mt-1">
                   <Calendar className="w-3 h-3 text-orange-500" />
-                  <span className="text-xs text-textMuted">Prévu 2025</span>
+                  <span className="text-xs text-textMuted">Prévu 2027</span>
                 </div>
               </div>
 
               <div className="border-l-4 border-gray-300 pl-4 py-2">
                 <div className="flex justify-between items-start mb-2">
-                  <h4 className="font-semibold text-textMain">Cloud Computing AWS</h4>
+                  <h4 className="font-semibold text-textMain">Cloud Computing </h4>
                   <span className="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">En cours</span>
                 </div>
                 <p className="text-textMuted text-sm">Formation en ligne</p>
                 <div className="flex items-center gap-2 mt-1">
                   <Calendar className="w-3 h-3 text-orange-500" />
-                  <span className="text-xs text-textMuted">Prévu 2025</span>
+                  <span className="text-xs text-textMuted">Prévu 2027</span>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ export default function Certifications() {
                 <span className="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">React Expert</span>
                 <span className="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">DPI Specialist</span>
                 <span className="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">UML Designer</span>
-                <span className="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">Agile/Scrum</span>
+                <span className="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">Next js Expert</span>
                 <span className="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">Healthcare IT</span>
               </div>
             </div>

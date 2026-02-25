@@ -103,7 +103,7 @@ export default function Projects() {
 
             <div className="flex gap-3">
               <a
-                href="https://github.com/ismaelbini/health-dashboard"
+                href="https://github.com/bouattara-dev/Portfolio-Bini.git"
                 target="_blank"
                 className="flex items-center gap-2 text-sm text-primary hover:underline"
               >

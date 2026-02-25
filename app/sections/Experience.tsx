@@ -32,12 +32,12 @@ export default function Experience() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 text-center">
               <TrendingUp className="w-6 h-6 text-primary mx-auto mb-2" />
-              <div className="text-2xl font-bold text-primary">30%</div>
+              <div className="text-2xl font-bold text-primary">90%</div>
               <div className="text-xs text-textMuted">Réduction temps traitement</div>
             </div>
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 text-center">
               <Users className="w-6 h-6 text-primary mx-auto mb-2" />
-              <div className="text-2xl font-bold text-primary">50+</div>
+              <div className="text-2xl font-bold text-primary">200+</div>
               <div className="text-xs text-textMuted">Utilisateurs formés</div>
             </div>
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 text-center">
