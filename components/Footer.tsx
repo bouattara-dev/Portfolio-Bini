@@ -43,11 +43,12 @@ export default function Footer() {
 
           <ul className="space-y-2 text-sm text-textMuted">
             <li>📧 ismaelbini31@gmail.com</li>
-            <li>📞 +225 05 65 58 57 78</li>
+            <li>� ouattarabini225@gmail.com</li>
+            <li>�📞 +225 05 65 58 57 78</li>
             <li>
               🔗{" "}
               <a
-                href="https://www.linkedin.com/in/ismael-bini"
+                href="https://www.linkedin.com/in/bini-kouakou-ismael-ouattara-205a02321/"
                 target="_blank"
                 className="hover:text-primary"
               >
@@ -58,7 +59,7 @@ export default function Footer() {
 
           <div className="mt-4">
             <a
-              href="/cv.pdf"
+              href="/cv .pdf"
               download
               className="inline-block text-sm font-medium text-primary hover:underline"
             >

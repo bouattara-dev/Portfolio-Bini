@@ -32,7 +32,7 @@ export default function Header() {
         {/* Boutons desktop */}
         <div className="hidden md:flex gap-3">
           <a
-            href="/cv.pdf"
+            href="/cv .pdf"
             download
             className="border border-primary text-primary px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary hover:text-white transition"
           >
@@ -105,7 +105,7 @@ export default function Header() {
             {/* Boutons mobile */}
             <div className="pt-4 space-y-3">
               <a
-                href="/cv.pdf"
+                href="/cv .pdf"
                 download
                 className="flex items-center justify-center gap-2 w-full border border-primary text-primary py-3 rounded-lg"
               >

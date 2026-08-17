@@ -37,6 +37,17 @@ export default function Contact() {
             </a>
           </div>
 
+          {/* Email 2 */}
+          <div className="flex items-center justify-center gap-3">
+            <Mail className="w-5 h-5 text-primary" />
+            <a
+              href="mailto:ouattarabini225@gmail.com"
+              className="font-medium text-textMain hover:text-primary"
+            >
+              ouattarabini225@gmail.com
+            </a>
+          </div>
+
           {/* Téléphone */}
           <div className="flex items-center justify-center gap-3">
             <Phone className="w-5 h-5 text-primary" />
@@ -64,7 +75,7 @@ export default function Contact() {
           <div className="flex items-center justify-center gap-3">
             <Linkedin className="w-5 h-5 text-primary" />
             <a
-              href="https://www.linkedin.com/in/ismael-bini"
+              href="https://www.linkedin.com/in/bini-kouakou-ismael-ouattara-205a02321/"
               target="_blank"
               className="font-medium text-textMain hover:text-primary"
             >
@@ -75,7 +86,7 @@ export default function Contact() {
           {/* Bouton CV */}
           <div className="pt-6">
             <a
-              href="/cv.pdf"
+              href="/cv .pdf"
               download
               className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition"
             >
